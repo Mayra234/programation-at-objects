@@ -1,18 +1,18 @@
 const computer = ({ brand, serial, price, type, color }) => {
   const getPrice = () => {
-    return this.price;
+    return price;
   };
 
   const getColor = () => {
-    return this.color;
+    return color;
   };
 
   const getSerial = () => {
-    return this.serial;
+    return serial;
   };
 
   const getType = () => {
-    return this.type;
+    return type;
   };
 
   return {

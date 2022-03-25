@@ -1,14 +1,14 @@
 const fruit = ({ name, quantity, price, description, expiryDate }) => {
   const getPrice = () => {
-    return parseFloat(this.price) * parseFloat(this.quantity);
+    return parseFloat(price) * parseFloat(quantity);
   };
 
   const getDescription = () => {
-    return this.description;
+    return description;
   };
 
   const getExpiryDate = () => {
-    return this.expiryDate;
+    return expiryDate;
   };
 
   return {

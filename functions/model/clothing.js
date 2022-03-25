@@ -1,14 +1,14 @@
 const clothing = ({ brand, typeFabric, price, quantity, colors }) => {
   const getPrice = () => {
-    return parseFloat(this.price) * parseFloat(this.quantity);
+    return parseFloat(price) * parseFloat(quantity);
   };
 
   const getColor = () => {
-    return this.colors.join(', ');
+    return colors.join(', ');
   };
 
   const getTypeFabric = () => {
-    return this.typeFabric.join(', ');
+    return typeFabric.join(', ');
   };
   return {
     brand,

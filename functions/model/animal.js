@@ -4,19 +4,19 @@ const animal = ({ typeAnimal, name, group, color, age }) => {
   };
 
   const getName = () => {
-    return this.name;
+    return name;
   };
 
   const getTypeAnimal = () => {
-    return this.typeAnimal;
+    return typeAnimal;
   };
 
   const getColor = () => {
-    return this.color;
+    return color;
   };
 
   const getAge = () => {
-    return this.age;
+    return age;
   };
 
   return {
